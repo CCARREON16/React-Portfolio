@@ -15,7 +15,7 @@ export default {
     abouttext:
       "Hello, my name is Christopher James Carreon. I am 31 years old and a Web developer and an aspiring Web Architect.",
     aboutImage:
-      "https://imgur.com/NIYwb0s",
+      "./assets/FlowerTiePic.png",
     
     ShowAboutImage: true, 
     // Change Projects Here
