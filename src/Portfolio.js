@@ -15,40 +15,60 @@ export default {
     abouttext:
       "Hello, my name is Christopher James Carreon. I am 31 years old and a Web developer and an aspiring Web Architect.",
     aboutImage:
-      "./assets/FlowerTiePic.png",
+      "https://i.imgur.com/lohd0G3.png[/img]",
     
     ShowAboutImage: true, 
     // Change Projects Here
     projects: [
       {
         id: 1, 
-        title: "BreweryProject", 
-        service: "One Man Project", 
+        title: "Brewery Project", 
+        service: "", 
+        imageSrc:
+       "https://i.imgur.com/69z1PhA.png[/img]",
+       //Project URL 
+       url: "https://ccarreon16.github.io/BreweryProject/", //first [roject i did
         
        
-        //Project URL 
-        url: "https://ccarreon16.github.io/BreweryProject/", //first [roject i did
+        
       },
       {
         id: 2, 
         title: "Password Genie",
-        service: "Group Project",
-        
-        url: "https://arcane-inlet-71435.herokuapp.com/",///first project i did with team
+        service: "",
+        imageSrc:
+       "https://i.imgur.com/dkKV5cP.png[/img]",
+         
+       
+       
+       
+       url: "https://arcane-inlet-71435.herokuapp.com/",///first project i did with team
       },
       {
         id: 3, 
         title: "Employee Tracker",
-        service: "Management Seach Database",
-       
-        url: "https://github.com/CCARREON16/EmployeeTracker-",
+        service: "",
+        imageSrc:
+        "https://i.imgur.com/3o5zYul.png[/img]",
+       url: "https://github.com/CCARREON16/EmployeeTracker-",
       },
       {
         id: 4, 
         title: "Eat-Da-Burger",
-        service: "Node Express",
+        service: "",
+        imageSrc:
+        "https://i.imgur.com/pZP6JXk.png[/img]",
         
         url: "https://stormy-woodland-63462.herokuapp.com/",
+      },
+      {
+        id: 5, 
+        title: "Online-Offline-Budget-Trackers",
+        service: "",
+        imageSrc:
+        "https://i.imgur.com/xXeD7PK.png[/img]",
+        
+        url: "https://ancient-crag-17293.herokuapp.com/",
       },
     ],
     social: [

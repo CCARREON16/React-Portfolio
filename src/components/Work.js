@@ -8,14 +8,16 @@ class Work extends Component {
     render() { 
         return (<div>
         <h1 className='heading'>
-        <Fade bottom cascade>Projects</Fade></h1>
+        <Fade bottom cascade></Fade></h1>
         <div className='work-content'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
-                             title = {project.title}
+                    title = {project.title}
                              service = {project.service}
                              imageSrc = {project.imageSrc}
+                             
                              url={project.url}
+                             
                      ></Project>
                 ))}
         </div>

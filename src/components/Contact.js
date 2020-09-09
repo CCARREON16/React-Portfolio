@@ -7,7 +7,7 @@ class Contact extends Component {
     render() { 
         return (  <div>
         <h1>
-                <Fade bottom cascade> Professional Profile</Fade>
+                <Fade bottom cascade> Professional Profiles</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
